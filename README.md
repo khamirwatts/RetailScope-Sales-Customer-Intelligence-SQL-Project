@@ -12,11 +12,11 @@ This project demonstrates end-to-end SQL analytics capabilities by building a re
 **Key Technologies**: PostgreSQL, SQL (CTEs, Window Functions, Date/Time Manipulation, Aggregations)
 
 ## 📊 Dataset Overview
-**Source:** Zero Analyst Youtube Tutorial
-**Size:** 2,000 transactions(after data cleaning)
-**Time period:** 2022-2023
-**Scope:** Multi-category retail transactions with customer demographics and temporal patterns
-**Categories:** Clothing, Beauty, Electronics
+- Source: Zero Analyst Youtube Tutorial
+- Size: 2,000 transactions(after data cleaning)
+- Time period: 2022-2023
+- Scope: Multi-category retail transactions with customer demographics and temporal patterns
+- Categories: Clothing, Beauty, Electronics
 
 **Schema Design:**
 transactions_id (PK) | sale_date | sale_time | customer_id | gender | age | 
