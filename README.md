@@ -242,7 +242,7 @@ Peak Seasons: July 2022 and February 2023 showed highest average sales, suggesti
 Customer Behavior
 
 Multi-category shoppers: Analysis reveals overlap in customer purchase patterns across product lines
-Demographic targeting: - Beauty category average customer age: 34.5 years (vs. 38.2 overall average)
+Demographic targeting: Beauty category average customer age: 34.5 years (vs. 38.2 overall average)
 - 42% of customers purchased from multiple categories
 
 Operational Efficiency
