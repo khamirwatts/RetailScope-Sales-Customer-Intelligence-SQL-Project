@@ -84,8 +84,9 @@ WHERE
 
 The following SQL queries were developed to answer specific business questions:
 
-Q1: High-Volume Category Analysis
-Business Question: Identify bulk clothing purchases in November 2022
+Q1: Daily Transaction Retrieval
+Business Question: Pull all sales from November 5, 2022 for daily reconciliation and audit purposes
+
 ```sql
 SELECT *
 FROM retail_sales
