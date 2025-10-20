@@ -178,6 +178,9 @@ GROUP BY customer_id
 ORDER BY total_sales DESC
 LIMIT 5
 ```
+### 📸 Sample Results: Top 5 Customers by Revenue
+<img width="261" height="163" alt="image" src="https://github.com/user-attachments/assets/c2db8513-ba43-4011-86be-7ee8ed4e0cdb" />
+*These high-value customers represent significant revenue concentration - customer 1247 alone contributed over $12K across 23 transactions, making them prime candidates for VIP loyalty programs.*
 
 Q9: Customer Reach by Category
 Business Question: Measure unique customer engagement per product line
