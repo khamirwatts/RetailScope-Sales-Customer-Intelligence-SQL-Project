@@ -92,6 +92,11 @@ SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
 ```
+### 📸 Sample Results: Category Performance
+<img width="440" height="108" alt="image" src="https://github.com/user-attachments/assets/24f21f53-1a2d-4e4b-a97e-d2ceea1b9cce" />
+
+*Electronics leads in revenue despite fewer orders, indicating higher average transaction value.*
+
 
 Q2: High-Volume Category Analysis
 Business Question: Identify bulk clothing purchases in November 2022
@@ -180,6 +185,7 @@ LIMIT 5
 ```
 ### 📸 Sample Results: Top 5 Customers by Revenue
 <img width="261" height="163" alt="image" src="https://github.com/user-attachments/assets/c2db8513-ba43-4011-86be-7ee8ed4e0cdb" />
+
 *These high-value customers represent significant revenue concentration - customer 1247 alone contributed over $12K across 23 transactions, making them prime candidates for VIP loyalty programs.*
 
 Q9: Customer Reach by Category
@@ -214,7 +220,6 @@ SELECT
 FROM hourly_sale
 GROUP BY shift
 ```
-
 
 ## 🔍 Key Findings & Business Insights
 
