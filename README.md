@@ -259,6 +259,21 @@ For Finance: Track high-value transactions and revenue trends
 
 Real-World Application: The analytical framework built here mirrors enterprise-level retail analytics used by companies like Target, Walmart, and Amazon for business decision-making.
 
+## 🚧 Challenges & Solutions 
+**Date Manipulation & Type Conversion**
+- Struggled with filtering November 2022 transactions - learned that `TO_CHAR(sale_date, 'YYYY-MM')` converts dates to strings for flexible comparison
+- **Impact**: Enabled precise seasonal analysis across 24-month dataset
+
+**Time-Based Categorization Logic**
+- Initially overwhelmed by creating shift categories from raw time data
+- Discovered CTEs + CASE statements provide clean, scalable solution for conditional logic
+- **Impact**: Streamlined staffing analysis revealing 36% of orders occur during afternoon shift
+
+**Window Functions (Ongoing)**
+- EXTRACT() with PARTITION BY required multiple iterations to fully grasp
+- Breaking complex queries into subqueries improved understanding
+- **Status**: Successfully ranking months by year, continuing to deepen window function proficiency
+
 ##📚 Future Enhancements
 
  Build interactive dashboard using Tableau/Power BI
@@ -276,6 +291,7 @@ Ability to translate business questions into technical queries
 Data cleaning and quality assurance best practices
 Advanced analytical thinking and problem-solving skills
 Communication of technical findings to non-technical stakeholders
+
 
 
 ##📞 Connect With Me
