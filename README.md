@@ -84,22 +84,18 @@ WHERE
 
 The following SQL queries were developed to answer specific business questions:
 
-Q1: Daily Transaction Retrieval
-Business Question: Pull all sales from a specific date for daily reconciliation
-
+Q1: High-Volume Category Analysis
+Business Question: Identify bulk clothing purchases in November 2022
 ```sql
 SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
 ```
-### 📸 Sample Results: Category Performance
-<img width="440" height="108" alt="image" src="https://github.com/user-attachments/assets/24f21f53-1a2d-4e4b-a97e-d2ceea1b9cce" />
 
-*Electronics leads in revenue despite fewer orders, indicating higher average transaction value.*
 
 
 Q2: High-Volume Category Analysis
-Business Question: Identify bulk clothing purchases in November 2022
+Business Question: Identify bulk clothing purchases (4+ units) in November 2022 to analyze holiday shopping patterns and inform seasonal inventory strategy.
 
 ```sql
 SELECT *
@@ -118,6 +114,10 @@ COUNT(*) AS total_orders
 FROM retail_sales
 GROUP BY category
 ```
+### 📸 Sample Results: Category Performance
+<img width="440" height="108" alt="image" src="https://github.com/user-attachments/assets/24f21f53-1a2d-4e4b-a97e-d2ceea1b9cce" />
+
+*Electronics leads in revenue despite fewer orders, indicating higher average transaction value.*
 
 Q4: Customer Demographic Profiling
 Business Question: Determine average age of Beauty category customers for targeted marketing
@@ -129,7 +129,7 @@ WHERE category = 'Beauty'
 ```
 
 Q5: Premium Transaction Identification
-Business Question: Flag high-value transactions for VIP customer analysis
+Business Question: Identify premium transactions exceeding $1,000 to segment high-value customers for targeted loyalty programs and personalized marketing
 
 ```sql
 SELECT *
@@ -174,7 +174,7 @@ WHERE rank = 1
 2023: February (Avg: $536)**
 
 Q8: Top Customer Identification
-Business Question: Identify highest-value customers for loyalty programs
+Business Question: Identify the top 5 highest-spending customers to prioritize for VIP loyalty programs and personalized retention strategies
 
 ```sql
 SELECT customer_id, SUM(total_sale) AS total_sales, COUNT(total_sale) AS transactions
@@ -200,7 +200,7 @@ GROUP BY category
 ```
 
 Q10: Shift-Based Demand Analysis (CTE Implementation)
-Business Question: Optimize staffing by analyzing order volume across day parts
+Business Question: Categorize daily transactions into operational shifts (Morning, Afternoon, Evening) to optimize staffing levels and reduce labor costs during peak demand periods
 
 ```sql
 WITH hourly_sale
