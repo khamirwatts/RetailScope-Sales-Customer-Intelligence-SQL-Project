@@ -124,7 +124,8 @@ GROUP BY category
 *Electronics leads in revenue despite fewer orders, indicating higher average transaction value.*
 
 Q4: Customer Demographic Profiling
-Business Question: Determine average age of Beauty category customers for targeted marketing
+
+**Business Question: Determine average age of Beauty category customers for targeted marketing**
 
 ```sql
 SELECT ROUND(AVG(age), 2) AS avg_age
@@ -133,7 +134,8 @@ WHERE category = 'Beauty'
 ```
 
 Q5: Premium Transaction Identification
-Business Question: Identify premium transactions exceeding $1,000 to segment high-value customers for targeted loyalty programs and personalized marketing
+
+**Business Question: Identify premium transactions exceeding $1,000 to segment high-value customers for targeted loyalty programs and personalized marketing**
 
 ```sql
 SELECT *
@@ -143,7 +145,8 @@ WHERE total_sale > 1000
 **Result: 306 premium transactions identified (15.3% of total)**
 
 Q6: Gender-Category Purchase Patterns
-Business Question: Analyze purchase behavior across gender segments by category
+
+**Business Question: Analyze purchase behavior across gender segments by category**
 
 ```sql
 SELECT category, gender, COUNT(*) AS total_trans
@@ -153,7 +156,8 @@ ORDER BY category
 ```
 
 Q7: Seasonal Trend Analysis (Advanced)
-Business Question: Identify peak sales months using window functions
+
+**Business Question: Identify peak sales months using window functions**
 
 ```sql
 SELECT 
@@ -178,7 +182,8 @@ WHERE rank = 1
 2023: February (Avg: $536)**
 
 Q8: Top Customer Identification
-Business Question: Identify the top 5 highest-spending customers to prioritize for VIP loyalty programs and personalized retention strategies
+
+**Business Question: Identify the top 5 highest-spending customers to prioritize for VIP loyalty programs and personalized retention strategies**
 
 ```sql
 SELECT customer_id, SUM(total_sale) AS total_sales, COUNT(total_sale) AS transactions
@@ -193,7 +198,8 @@ LIMIT 5
 *These high-value customers represent significant revenue concentration - customer 3 alone contributed over $38K across 76 transactions, making them prime candidates for VIP loyalty programs.*
 
 Q9: Customer Reach by Category
-Business Question: Measure unique customer engagement per product line
+
+**Business Question: Measure unique customer engagement per product line**
 
 ```sql
 SELECT 
@@ -204,7 +210,8 @@ GROUP BY category
 ```
 
 Q10: Shift-Based Demand Analysis (CTE Implementation)
-Business Question: Categorize daily transactions into operational shifts (Morning, Afternoon, Evening) to optimize staffing levels and reduce labor costs during peak demand periods
+
+**Business Question: Categorize daily transactions into operational shifts (Morning, Afternoon, Evening) to optimize staffing levels and reduce labor costs during peak demand periods**
 
 ```sql
 WITH hourly_sale
