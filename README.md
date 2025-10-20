@@ -177,16 +177,16 @@ Q8: Top Customer Identification
 Business Question: Identify highest-value customers for loyalty programs
 
 ```sql
-SELECT customer_id, SUM(total_sale) AS total_sales
+SELECT customer_id, SUM(total_sale) AS total_sales, COUNT(total_sale) AS transactions
 FROM retail_sales
 GROUP BY customer_id
 ORDER BY total_sales DESC
 LIMIT 5
 ```
 ### 📸 Sample Results: Top 5 Customers by Revenue
-<img width="261" height="163" alt="image" src="https://github.com/user-attachments/assets/c2db8513-ba43-4011-86be-7ee8ed4e0cdb" />
+<img width="355" height="162" alt="image" src="https://github.com/user-attachments/assets/5f48f13d-67b3-441e-995c-eaa75a0f6ae9" />
 
-*These high-value customers represent significant revenue concentration - customer 1247 alone contributed over $12K across 23 transactions, making them prime candidates for VIP loyalty programs.*
+*These high-value customers represent significant revenue concentration - customer 3 alone contributed over $38K across 76 transactions, making them prime candidates for VIP loyalty programs.*
 
 Q9: Customer Reach by Category
 Business Question: Measure unique customer engagement per product line
