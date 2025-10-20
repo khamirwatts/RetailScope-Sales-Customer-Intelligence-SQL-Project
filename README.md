@@ -85,7 +85,8 @@ WHERE
 The following SQL queries were developed to answer specific business questions:
 
 Q1: Daily Transaction Retrieval
-Business Question: Pull all sales from November 5, 2022 for daily reconciliation and audit purposes
+
+**Business Question: Pull all sales from November 5, 2022 for daily reconciliation and audit purposes**
 
 ```sql
 SELECT *
@@ -96,7 +97,8 @@ WHERE sale_date = '2022-11-05';
 
 
 Q2: High-Volume Category Analysis
-Business Question: Identify bulk clothing purchases (4+ units) in November 2022 to analyze holiday shopping patterns and inform seasonal inventory strategy.
+
+**Business Question: Identify bulk clothing purchases (4+ units) in November 2022 to analyze holiday shopping patterns and inform seasonal inventory strategy.**
 
 ```sql
 SELECT *
@@ -107,7 +109,8 @@ AND quantity >=4
 ```
 
 Q3: Category Performance Metrics
-Business Question: Calculate total revenue and order volume by product category
+
+**Business Question: Calculate total revenue and order volume by product category**
 
 ```sql
 SELECT category, SUM(total_sale) AS total_sales_by_category,
