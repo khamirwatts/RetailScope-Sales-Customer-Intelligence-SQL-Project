@@ -295,21 +295,21 @@ Real-World Application: The analytical framework built here mirrors enterprise-l
 
 ##📚 Future Enhancements
 
- -Build interactive dashboard using Tableau/Power BI
- -Implement customer lifetime value (CLV) analysis
- -Add product-level profitability metrics
- -Develop predictive models for demand forecasting
- -Create automated reporting pipeline
- -Integrate customer retention and churn analysis
+- Build interactive dashboard using Tableau/Power BI
+- Implement customer lifetime value (CLV) analysis
+- Add product-level profitability metrics
+- Develop predictive models for demand forecasting
+- Create automated reporting pipeline
+- Integrate customer retention and churn analysis
 
  ##🎓 Learning Outcomes
 This project demonstrates:
 
-Practical SQL expertise applicable to real-world business scenarios
-Ability to translate business questions into technical queries
-Data cleaning and quality assurance best practices
-Advanced analytical thinking and problem-solving skills
-Communication of technical findings to non-technical stakeholders
+- Practical SQL expertise applicable to real-world business scenarios
+- Ability to translate business questions into technical queries
+- Data cleaning and quality assurance best practices
+- Advanced analytical thinking and problem-solving skills
+- Communication of technical findings to non-technical stakeholders
 
 
 
