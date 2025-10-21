@@ -293,7 +293,7 @@ Real-World Application: The analytical framework built here mirrors enterprise-l
 - Breaking complex queries into subqueries improved understanding
 - **Status**: Successfully ranking months by year, continuing to deepen window function proficiency
 
-##📚 Future Enhancements
+## 📚 Future Enhancements
 
 - Build interactive dashboard using Tableau/Power BI
 - Implement customer lifetime value (CLV) analysis
@@ -302,7 +302,7 @@ Real-World Application: The analytical framework built here mirrors enterprise-l
 - Create automated reporting pipeline
 - Integrate customer retention and churn analysis
 
- ##🎓 Learning Outcomes
+ ## 🎓 Learning Outcomes
 This project demonstrates:
 
 - Practical SQL expertise applicable to real-world business scenarios
@@ -313,7 +313,7 @@ This project demonstrates:
 
 
 
-##📞 Connect With Me
+## 📞 Connect With Me
 Interested in discussing this project or potential opportunities? Let's connect!
 (https://www.linkedin.com/in/khamirwatts/)
 
