@@ -252,10 +252,10 @@ Category performance: Revenue breakdown by category informs inventory allocation
 
 Strategic Recommendations
 
-VIP Program: Target 306 high-value customers with personalized loyalty incentives
-Seasonal Campaigns: Amplify marketing spend in July and February based on historical peaks
-Staffing Optimization: Align workforce scheduling with shift-based demand patterns
-Category Investment: Prioritize inventory and shelf space for top-performing product lines
+- VIP Program: Target 306 high-value customers with personalized loyalty incentives
+- Seasonal Campaigns: Amplify marketing spend in July and February based on historical peaks
+- Staffing Optimization: Align workforce scheduling with shift-based demand patterns
+- Category Investment: Prioritize inventory and shelf space for top-performing product lines
 
 ## 💡 SQL Techniques Demonstrated
 
