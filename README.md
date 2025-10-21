@@ -234,23 +234,23 @@ GROUP BY shift
 
 ## 🔍 Key Findings & Business Insights
 
-Revenue Intelligence
+**Revenue Intelligence**
 
 Premium Segment: 306 transactions exceeded $1,000 (15.3% of total volume), representing high-value customer segment
 Peak Seasons: July 2022 and February 2023 showed highest average sales, suggesting seasonal promotional opportunities
 
-Customer Behavior
+**Customer Behavior**
 
 Multi-category shoppers: Analysis reveals overlap in customer purchase patterns across product lines
 Demographic targeting: Beauty category average customer age: 34.5 years (vs. 38.2 overall average)
 - 42% of customers purchased from multiple categories
 
-Operational Efficiency
+**Operational Efficiency**
 
 Shift patterns: Order distribution analysis enables data-driven staffing decisions
 Category performance: Revenue breakdown by category informs inventory allocation strategies
 
-Strategic Recommendations
+**Strategic Recommendations**
 
 - VIP Program: Target 306 high-value customers with personalized loyalty incentives
 - Seasonal Campaigns: Amplify marketing spend in July and February based on historical peaks
@@ -259,14 +259,14 @@ Strategic Recommendations
 
 ## 💡 SQL Techniques Demonstrated
 
-✅ Database Design: Schema creation and table structuring
-✅ Data Cleaning: NULL handling and data validation
-✅ Aggregations: SUM, AVG, COUNT with GROUP BY
-✅ Window Functions: RANK() with PARTITION BY for ranking analysis
-✅ CTEs: Common Table Expressions for complex query organization
-✅ Date/Time Functions: EXTRACT, TO_CHAR for temporal analysis
-✅ Filtering: Multi-condition WHERE clauses
-✅ Subqueries: Nested queries for advanced analytics
+✅ - Database Design: Schema creation and table structuring
+✅ - Data Cleaning: NULL handling and data validation
+✅ - Aggregations: SUM, AVG, COUNT with GROUP BY
+✅ - Window Functions: RANK() with PARTITION BY for ranking analysis
+✅ - CTEs: Common Table Expressions for complex query organization
+✅ - Date/Time Functions: EXTRACT, TO_CHAR for temporal analysis
+✅ - Filtering: Multi-condition WHERE clauses
+✅ - Subqueries: Nested queries for advanced analytics
 
 ## 🚀 Project Impact
 This project transforms raw transactional data into strategic business intelligence:
